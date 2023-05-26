@@ -30,12 +30,18 @@ class RootTabBar: UITabBarController {
     
     func createGamesList() -> UINavigationController {
         let gamesListViewController = GamesListViewController()
+        gamesListViewController.navigationItem.title = Localization.RootTabBar.gamesScreenTitle
+        gamesListViewController.tabBarItem = UITabBarItem(title: Localization.RootTabBar.gamesScreenTitle,
+                                           image:  Constants.Images.playIcon!,
+                                           tag: 0)
+        let searchNC = UINavigationController(rootViewController: gamesListViewController)
         return searchNC
     }
     
     
     func createFavouritesList() -> UINavigationController {
         let favouritesViewController = FavouritesListViewController()
+        let favoritesNavigationController = UINavigationController(rootViewController: favouritesViewController)
         return favoritesNavigationController
     }
 }
