@@ -41,6 +41,10 @@ class RootTabBar: UITabBarController {
     
     func createFavouritesList() -> UINavigationController {
         let favouritesViewController = FavouritesListViewController()
+        favouritesViewController.navigationItem.title = Localization.RootTabBar.favouritesScreenTitle
+        favouritesViewController.tabBarItem = UITabBarItem(title: Localization.RootTabBar.favouritesScreenTitle,
+                                                           image: Constants.Images.favoriteIcon!,
+                                                           tag: 1)
         let favoritesNavigationController = UINavigationController(rootViewController: favouritesViewController)
         return favoritesNavigationController
     }
