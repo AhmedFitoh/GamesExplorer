@@ -16,13 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = RootTabBar()
         window?.makeKeyAndVisible()
-//        setupNavigationBarStyle()
+        setupNavigationBarStyle()
         return true
     }
     
 
     private func setupNavigationBarStyle() {
-        
         if #available(iOS 13.0, *) {
             let appearance = UINavigationBarAppearance()
             appearance.backgroundColor = AppTheme.shared.navigationBarColor
@@ -31,7 +30,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             UINavigationBar.appearance().standardAppearance = appearance
             UINavigationBar.appearance().compactAppearance = appearance
             UINavigationBar.appearance().scrollEdgeAppearance = appearance
-
         } else {
             UINavigationBar.appearance().barTintColor = AppTheme.shared.navigationBarColor
             UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: AppTheme.shared.navBarTitleColor]
