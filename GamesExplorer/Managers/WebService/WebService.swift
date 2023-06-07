@@ -15,7 +15,7 @@ enum NetworkMethod: String {
 
 
 enum NetworkError: String, Error {
-    case invalidURL = "This url is  invalid. Please try again."
+    case invalidURL = "This url is invalid. Please try again."
     case invalidResponse = "Invalid Response from the server please try again."
 }
 
