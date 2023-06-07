@@ -15,8 +15,12 @@ protocol FavouritesProvider {
 
 class FavouritesManager: FavouritesProvider {
 
-    private let defaults = UserDefaults.standard
+    private let defaults: UserDefaults
     private let favouritesKey = "favourites"
+
+    init(suiteName: String = "GamesExplorerMainDefaults") {
+        defaults = UserDefaults(suiteName: suiteName) ?? UserDefaults.standard
+    }
 
     func addToFavourites(_ game: Game) {
         var currentFavourites = retrieveFavourites()
