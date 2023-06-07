@@ -15,3 +15,11 @@ class GamesListServiceProtocolSuccessMock: GamesListServiceProtocol {
         completion(.success((Game.readyList, nil)))
     }
 }
+
+class GamesListServiceProtocolFailureMock: GamesListServiceProtocol {
+    func loadData(page: Int,
+                  search: String?,
+                  completion: @escaping (Result<([GamesExplorer.Game], String?), GamesExplorer.NetworkError>) -> ()) {
+        completion(.failure(.invalidURL))
+    }
+}

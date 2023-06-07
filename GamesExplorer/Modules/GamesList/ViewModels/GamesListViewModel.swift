@@ -58,7 +58,7 @@ extension GamesListViewModel {
         loadData(page: currentPage)
     }
 
-    func loadData(page: Int) {
+    private func loadData(page: Int) {
         isLoading = true
         webService.loadData(page: page, search: searchText) { [weak self] result in
             guard let self = self else {return}
