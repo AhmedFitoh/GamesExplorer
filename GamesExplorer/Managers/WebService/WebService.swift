@@ -34,7 +34,7 @@ class NetworkManager {
         #endif
         request.httpMethod = resource.method.rawValue
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.cachePolicy = .returnCacheDataDontLoad
+        request.cachePolicy = .returnCacheDataElseLoad
         URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {
                 completion(.failure(.invalidURL))
