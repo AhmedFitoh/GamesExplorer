@@ -30,7 +30,6 @@
 		2DAD107228053B790000ECC3 /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD107128053B790000ECC3 /* Data+Ext.swift */; };
 		2DAD107628053DBC0000ECC3 /* FavouritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD107528053DBC0000ECC3 /* FavouritesManager.swift */; };
 		2DAD107A28056CFE0000ECC3 /* GameListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD107928056CFE0000ECC3 /* GameListProtocol.swift */; };
-		2DAD10822805707E0000ECC3 /* GamesExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD10812805707E0000ECC3 /* GamesExplorerTests.swift */; };
 		2DFA17372804D353004D57A8 /* URLManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA17362804D353004D57A8 /* URLManger.swift */; };
 		2DFA17392804D3EA004D57A8 /* GameResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA17382804D3EA004D57A8 /* GameResources.swift */; };
 		2DFA173B2804DEA9004D57A8 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA173A2804DEA9004D57A8 /* UIImageView+Ext.swift */; };
@@ -42,6 +41,7 @@
 		9C105F622A308A16001CD410 /* FavouritesManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C105F612A308A16001CD410 /* FavouritesManagerMock.swift */; };
 		9C105F642A308C51001CD410 /* GameDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C105F632A308C51001CD410 /* GameDetailsModel.swift */; };
 		9C105F662A308DC8001CD410 /* GamesDetailsWebServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C105F652A308DC8001CD410 /* GamesDetailsWebServiceMock.swift */; };
+		9C105F692A309350001CD410 /* FavouritesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C105F682A309350001CD410 /* FavouritesListViewModelTests.swift */; };
 		9C3B13AC2A2296BD00DCCEF6 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C3B13A92A2296BD00DCCEF6 /* SF-Pro-Text-Bold.otf */; };
 		9C3B13AD2A2296BD00DCCEF6 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C3B13AA2A2296BD00DCCEF6 /* SF-Pro-Text-Medium.otf */; };
 		9C3B13AE2A2296BD00DCCEF6 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C3B13AB2A2296BD00DCCEF6 /* SF-Pro-Text-Regular.otf */; };
@@ -126,7 +126,6 @@
 		2DAD107528053DBC0000ECC3 /* FavouritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesManager.swift; sourceTree = "<group>"; };
 		2DAD107928056CFE0000ECC3 /* GameListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListProtocol.swift; sourceTree = "<group>"; };
 		2DAD107F2805707E0000ECC3 /* GamesExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamesExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DAD10812805707E0000ECC3 /* GamesExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesExplorerTests.swift; sourceTree = "<group>"; };
 		2DFA17362804D353004D57A8 /* URLManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLManger.swift; sourceTree = "<group>"; };
 		2DFA17382804D3EA004D57A8 /* GameResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResources.swift; sourceTree = "<group>"; };
 		2DFA173A2804DEA9004D57A8 /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
@@ -138,6 +137,7 @@
 		9C105F612A308A16001CD410 /* FavouritesManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesManagerMock.swift; sourceTree = "<group>"; };
 		9C105F632A308C51001CD410 /* GameDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsModel.swift; sourceTree = "<group>"; };
 		9C105F652A308DC8001CD410 /* GamesDetailsWebServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesDetailsWebServiceMock.swift; sourceTree = "<group>"; };
+		9C105F682A309350001CD410 /* FavouritesListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesListViewModelTests.swift; sourceTree = "<group>"; };
 		9C3B13A92A2296BD00DCCEF6 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
 		9C3B13AA2A2296BD00DCCEF6 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
 		9C3B13AB2A2296BD00DCCEF6 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
@@ -400,7 +400,7 @@
 				9C72E2542A2397C500E486A7 /* WebServiceMock */,
 				9C72E2512A23974300E486A7 /* GamesList */,
 				9C105F5D2A308574001CD410 /* GameDetails */,
-				2DAD10812805707E0000ECC3 /* GamesExplorerTests.swift */,
+				9C105F672A30932F001CD410 /* FavouritesList */,
 			);
 			path = GamesExplorerTests;
 			sourceTree = "<group>";
@@ -479,6 +479,14 @@
 				9C105F612A308A16001CD410 /* FavouritesManagerMock.swift */,
 			);
 			path = FavouritesManagerMock;
+			sourceTree = "<group>";
+		};
+		9C105F672A30932F001CD410 /* FavouritesList */ = {
+			isa = PBXGroup;
+			children = (
+				9C105F682A309350001CD410 /* FavouritesListViewModelTests.swift */,
+			);
+			path = FavouritesList;
 			sourceTree = "<group>";
 		};
 		9C4F76C42A2362440030B91A /* ImageCacheManager */ = {
@@ -716,8 +724,8 @@
 				9C105F662A308DC8001CD410 /* GamesDetailsWebServiceMock.swift in Sources */,
 				9C105F5F2A3085B7001CD410 /* GameDetailsViewModelTests.swift in Sources */,
 				9C72E2592A23A44900E486A7 /* GamesModel.swift in Sources */,
+				9C105F692A309350001CD410 /* FavouritesListViewModelTests.swift in Sources */,
 				9C105F622A308A16001CD410 /* FavouritesManagerMock.swift in Sources */,
-				2DAD10822805707E0000ECC3 /* GamesExplorerTests.swift in Sources */,
 				9C105F642A308C51001CD410 /* GameDetailsModel.swift in Sources */,
 				9C72E2562A2397DC00E486A7 /* GamesListServiceProtocolMock.swift in Sources */,
 			);
