@@ -19,7 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setupNavigationBarStyle()
         return true
     }
-    
 
     private func setupNavigationBarStyle() {
         if #available(iOS 13.0, *) {
